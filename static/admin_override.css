@@ -1,0 +1,13 @@
+
+
+
+th.field-__str__{
+    font-weight: lighter;
+    font-family: 'Consolas';
+    background-color: rgb(208, 208, 208);
+}
+
+th.field-__str__ a {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}

@@ -1,0 +1,35 @@
+{
+    "leaves": [
+        "Trunk",
+        "Translation",
+        "GenderCategory",
+        "AddressCategory",
+        "ContactCategory",
+        "PhoneCategory",
+        "EmailCategory",
+        "AddressType",
+        "ClientDescr",
+        "Person",
+        "LegalEntity",
+        "EpUser",
+        "Email",
+        "Phone",
+        "q_Client_branch",
+        "q_Names_leaf",
+        "q_Phones_leaf",
+        "q_Addresses_leaf",
+        "Dummy_test",
+        "Test_without_unique"
+    ],
+    "branches": [
+        "Client",
+        "Contact",
+        "Dummy_branch"
+    ],
+    "schema_graph": {
+            "Client": ["ClientDescr", "EpUser", "Contact", "LegalEntity"],
+            "Contact": ["ContactCategory", "Person", "Email", "Phone"],
+            "Dummy_branch": ["Translation", "GenderCategory"]
+        }
+}
+

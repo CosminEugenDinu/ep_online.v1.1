@@ -1,0 +1,29 @@
+{
+    "leaves": [
+        "Translation",
+        "GenderCategory",
+        "AddressCategory",
+        "ContactCategory",
+        "PhoneCategory",
+        "EmailCategory",
+        "AddressType",
+        "ClientDescr",
+        "Person",
+        "LegalEntity",
+        "EpUser",
+        "Email",
+        "Phone"
+    ],
+    "branches": [
+        "Client",
+        "Contact"
+    ],
+    "schema_graph": {
+        "Client": [
+            "Phone",
+            "ClientDescr",
+            "Phone"
+        ],
+        "Contact": []
+    }
+}

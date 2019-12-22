@@ -1,0 +1,599 @@
+[
+{
+    "model": "eprectest.trunk",
+    "pk": 1,
+    "fields": {
+        "model_id": 1,
+        "table_name": "eprectest_trunk",
+        "hier_type": "leaf",
+        "keyword": "trunk",
+        "model_name": "Trunk",
+        "app_label": "eprectest",
+        "table_descr": "no description"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 2,
+    "fields": {
+        "model_id": 2,
+        "table_name": "eprectest_hierschema",
+        "hier_type": "leaf",
+        "keyword": "hierschema",
+        "model_name": "HierSchema",
+        "app_label": "eprectest",
+        "table_descr": "This is a hierarchy table with db tables"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 3,
+    "fields": {
+        "model_id": 3,
+        "table_name": "eprectest_client",
+        "hier_type": "branch",
+        "keyword": "client",
+        "model_name": "Client",
+        "app_label": "eprectest",
+        "table_descr": "Description from Branch"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 4,
+    "fields": {
+        "model_id": 4,
+        "table_name": "eprectest_contact",
+        "hier_type": "branch",
+        "keyword": "contact",
+        "model_name": "Contact",
+        "app_label": "eprectest",
+        "table_descr": "Description from Branch"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 5,
+    "fields": {
+        "model_id": 5,
+        "table_name": "eprectest_br2",
+        "hier_type": "branch",
+        "keyword": "br2",
+        "model_name": "Br2",
+        "app_label": "eprectest",
+        "table_descr": "Description from Branch"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 6,
+    "fields": {
+        "model_id": 6,
+        "table_name": "eprectest_bunch_client",
+        "hier_type": "bunch",
+        "keyword": "bunch_client",
+        "model_name": "Bunch_Client",
+        "app_label": "eprectest",
+        "table_descr": "Description from Bunch"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 7,
+    "fields": {
+        "model_id": 7,
+        "table_name": "eprectest_bunch_contact",
+        "hier_type": "bunch",
+        "keyword": "bunch_contact",
+        "model_name": "Bunch_Contact",
+        "app_label": "eprectest",
+        "table_descr": "Description from Bunch"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 8,
+    "fields": {
+        "model_id": 8,
+        "table_name": "eprectest_bunch_br2",
+        "hier_type": "bunch",
+        "keyword": "bunch_br2",
+        "model_name": "Bunch_Br2",
+        "app_label": "eprectest",
+        "table_descr": "Description from Bunch"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 9,
+    "fields": {
+        "model_id": 9,
+        "table_name": "eprectest_translation",
+        "hier_type": "leaf",
+        "keyword": "translation",
+        "model_name": "Translation",
+        "app_label": "eprectest",
+        "table_descr": "no description"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 10,
+    "fields": {
+        "model_id": 10,
+        "table_name": "eprectest_gendercategory",
+        "hier_type": "leaf",
+        "keyword": "gendercategory",
+        "model_name": "GenderCategory",
+        "app_label": "eprectest",
+        "table_descr": "no description"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 11,
+    "fields": {
+        "model_id": 11,
+        "table_name": "eprectest_addresscategory",
+        "hier_type": "leaf",
+        "keyword": "addresscategory",
+        "model_name": "AddressCategory",
+        "app_label": "eprectest",
+        "table_descr": "no description"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 12,
+    "fields": {
+        "model_id": 12,
+        "table_name": "eprectest_contactcategory",
+        "hier_type": "leaf",
+        "keyword": "contactcategory",
+        "model_name": "ContactCategory",
+        "app_label": "eprectest",
+        "table_descr": "no description"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 13,
+    "fields": {
+        "model_id": 13,
+        "table_name": "eprectest_phonecategory",
+        "hier_type": "leaf",
+        "keyword": "phonecategory",
+        "model_name": "PhoneCategory",
+        "app_label": "eprectest",
+        "table_descr": "no description"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 14,
+    "fields": {
+        "model_id": 14,
+        "table_name": "eprectest_emailcategory",
+        "hier_type": "leaf",
+        "keyword": "emailcategory",
+        "model_name": "EmailCategory",
+        "app_label": "eprectest",
+        "table_descr": "no description"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 15,
+    "fields": {
+        "model_id": 15,
+        "table_name": "eprectest_addresstype",
+        "hier_type": "leaf",
+        "keyword": "addresstype",
+        "model_name": "AddressType",
+        "app_label": "eprectest",
+        "table_descr": "no description"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 16,
+    "fields": {
+        "model_id": 16,
+        "table_name": "eprectest_clientdescr",
+        "hier_type": "leaf",
+        "keyword": "clientdescr",
+        "model_name": "ClientDescr",
+        "app_label": "eprectest",
+        "table_descr": "no description"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 17,
+    "fields": {
+        "model_id": 17,
+        "table_name": "eprectest_person",
+        "hier_type": "leaf",
+        "keyword": "person",
+        "model_name": "Person",
+        "app_label": "eprectest",
+        "table_descr": "no description"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 18,
+    "fields": {
+        "model_id": 18,
+        "table_name": "eprectest_legalentity",
+        "hier_type": "leaf",
+        "keyword": "legalentity",
+        "model_name": "LegalEntity",
+        "app_label": "eprectest",
+        "table_descr": "no description"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 19,
+    "fields": {
+        "model_id": 19,
+        "table_name": "eprectest_epuser",
+        "hier_type": "leaf",
+        "keyword": "epuser",
+        "model_name": "EpUser",
+        "app_label": "eprectest",
+        "table_descr": "no description"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 20,
+    "fields": {
+        "model_id": 20,
+        "table_name": "eprectest_email",
+        "hier_type": "leaf",
+        "keyword": "email",
+        "model_name": "Email",
+        "app_label": "eprectest",
+        "table_descr": "no description"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 21,
+    "fields": {
+        "model_id": 21,
+        "table_name": "eprectest_phone",
+        "hier_type": "leaf",
+        "keyword": "phone",
+        "model_name": "Phone",
+        "app_label": "eprectest",
+        "table_descr": "no description"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 22,
+    "fields": {
+        "model_id": 22,
+        "table_name": "eprectest_q_client_branch",
+        "hier_type": "leaf",
+        "keyword": "q_client_branch",
+        "model_name": "q_Client_branch",
+        "app_label": "eprectest",
+        "table_descr": "no description"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 23,
+    "fields": {
+        "model_id": 23,
+        "table_name": "eprectest_q_names_leaf",
+        "hier_type": "leaf",
+        "keyword": "q_names_leaf",
+        "model_name": "q_Names_leaf",
+        "app_label": "eprectest",
+        "table_descr": "no description"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 24,
+    "fields": {
+        "model_id": 24,
+        "table_name": "eprectest_q_phones_leaf",
+        "hier_type": "leaf",
+        "keyword": "q_phones_leaf",
+        "model_name": "q_Phones_leaf",
+        "app_label": "eprectest",
+        "table_descr": "no description"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 25,
+    "fields": {
+        "model_id": 25,
+        "table_name": "eprectest_q_addresses_leaf",
+        "hier_type": "leaf",
+        "keyword": "q_addresses_leaf",
+        "model_name": "q_Addresses_leaf",
+        "app_label": "eprectest",
+        "table_descr": "no description"
+    }
+},
+{
+    "model": "eprectest.trunk",
+    "pk": 26,
+    "fields": {
+        "model_id": 26,
+        "table_name": "eprectest_dummy_test",
+        "hier_type": "leaf",
+        "keyword": "dummy_test",
+        "model_name": "Dummy_test",
+        "app_label": "eprectest",
+        "table_descr": "no description"
+    }
+},
+{
+    "model": "eprectest.gendercategory",
+    "pk": 1,
+    "fields": {
+        "name": "male",
+        "is_custom": false,
+        "translation": null
+    }
+},
+{
+    "model": "eprectest.gendercategory",
+    "pk": 2,
+    "fields": {
+        "name": "female",
+        "is_custom": false,
+        "translation": null
+    }
+},
+{
+    "model": "eprectest.gendercategory",
+    "pk": 3,
+    "fields": {
+        "name": "none",
+        "is_custom": false,
+        "translation": null
+    }
+},
+{
+    "model": "eprectest.gendercategory",
+    "pk": 4,
+    "fields": {
+        "name": "rather not say",
+        "is_custom": true,
+        "translation": null
+    }
+},
+{
+    "model": "eprectest.gendercategory",
+    "pk": 5,
+    "fields": {
+        "name": "uncertain",
+        "is_custom": true,
+        "translation": null
+    }
+},
+{
+    "model": "eprectest.contactcategory",
+    "pk": 1,
+    "fields": {
+        "name": "home",
+        "is_custom": false,
+        "translation": null
+    }
+},
+{
+    "model": "eprectest.contactcategory",
+    "pk": 2,
+    "fields": {
+        "name": "office",
+        "is_custom": false,
+        "translation": null
+    }
+},
+{
+    "model": "eprectest.contactcategory",
+    "pk": 3,
+    "fields": {
+        "name": "delivery",
+        "is_custom": false,
+        "translation": null
+    }
+},
+{
+    "model": "eprectest.contactcategory",
+    "pk": 4,
+    "fields": {
+        "name": "vacation",
+        "is_custom": true,
+        "translation": null
+    }
+},
+{
+    "model": "eprectest.emailcategory",
+    "pk": 1,
+    "fields": {
+        "name": "home",
+        "is_custom": false,
+        "translation": null
+    }
+},
+{
+    "model": "eprectest.emailcategory",
+    "pk": 2,
+    "fields": {
+        "name": "office",
+        "is_custom": false,
+        "translation": null
+    }
+},
+{
+    "model": "eprectest.emailcategory",
+    "pk": 3,
+    "fields": {
+        "name": "junk",
+        "is_custom": true,
+        "translation": null
+    }
+},
+{
+    "model": "eprectest.clientdescr",
+    "pk": 1,
+    "fields": {
+        "name": "persoana fizica",
+        "date_become_client": "2019-12-09T13:31:17.864Z",
+        "other_details": "Este o persoana fizica foarte frumoasa!..."
+    }
+},
+{
+    "model": "eprectest.clientdescr",
+    "pk": 2,
+    "fields": {
+        "name": "Firma",
+        "date_become_client": "2019-12-09T13:31:35.277Z",
+        "other_details": "Este o firma de firma!..."
+    }
+},
+{
+    "model": "eprectest.person",
+    "pk": 1,
+    "fields": {
+        "firstname": "Cosmin Eugen",
+        "lastname": "Dinu",
+        "born": "2019-12-09",
+        "gender": 1
+    }
+},
+{
+    "model": "eprectest.person",
+    "pk": 2,
+    "fields": {
+        "firstname": "Constantin",
+        "lastname": "Vasile",
+        "born": "1988-03-22",
+        "gender": 1
+    }
+},
+{
+    "model": "eprectest.person",
+    "pk": 3,
+    "fields": {
+        "firstname": "Vali",
+        "lastname": "Indecisu",
+        "born": "2019-12-09",
+        "gender": 5
+    }
+},
+{
+    "model": "eprectest.legalentity",
+    "pk": 1,
+    "fields": {
+        "name": "Eprintare",
+        "company_name": "Colibri Personal Solutions",
+        "identifier": "J40/177/2015",
+        "vat_code": "RO33955381"
+    }
+},
+{
+    "model": "eprectest.legalentity",
+    "pk": 2,
+    "fields": {
+        "name": "Google",
+        "company_name": "Google Inc.",
+        "identifier": "J100/100/1000",
+        "vat_code": "GB3344567"
+    }
+},
+{
+    "model": "eprectest.legalentity",
+    "pk": 3,
+    "fields": {
+        "name": "Microsoft",
+        "company_name": "Microsoft Programming",
+        "identifier": "M40/188/2020",
+        "vat_code": "MD334455678"
+    }
+},
+
+{
+    "model": "eprectest.email",
+    "pk": 1,
+    "fields": {
+        "email": "email_1@unu.unu",
+        "category_id": 3
+    }
+},
+{
+    "model": "eprectest.email",
+    "pk": 2,
+    "fields": {
+        "email": "email2@doi.doi",
+        "category_id": 1
+    }
+},
+{
+    "model": "eprectest.email",
+    "pk": 3,
+    "fields": {
+        "email": "email3!@trei.trei",
+        "category_id": 2
+    }
+},
+{
+    "model": "eprectest.email",
+    "pk": 4,
+    "fields": {
+        "email": "my_favourite-junk.email@junk.garbage",
+        "category_id": 3
+    }
+},
+{
+    "model": "eprectest.phone",
+    "pk": 1,
+    "fields": {
+        "phone": "+40123456789",
+        "category": 1
+    }
+},
+{
+    "model": "eprectest.phone",
+    "pk": 2,
+    "fields": {
+        "phone": "+40 987654321111",
+        "category": 1
+    }
+},
+{
+    "model": "eprectest.phone",
+    "pk": 3,
+    "fields": {
+        "phone": "1111111111",
+        "category": 1
+    }
+},
+{
+    "model": "eprectest.phone",
+    "pk": 4,
+    "fields": {
+        "phone": "2222222222",
+        "category": 1
+    }
+},
+{
+    "model": "eprectest.phone",
+    "pk": 5,
+    "fields": {
+        "phone": "3333333333",
+        "category": 1
+    }
+}
+]

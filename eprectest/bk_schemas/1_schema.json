@@ -1,0 +1,31 @@
+{
+    "leaves": [
+        "Trunk",
+        "HierSchema",
+        "Translation",
+        "GenderCategory",
+        "AddressCategory",
+        "ContactCategory",
+        "PhoneCategory",
+        "EmailCategory",
+        "AddressType",
+        "ClientDescr",
+        "Person",
+        "LegalEntity",
+        "EpUser",
+        "Email",
+        "Phone"
+    ],
+    "dummy_info": "info 1 2 3",
+    "bunches": [
+        "Bunch_Client",
+        "Bunch_Contact",
+        "Bunch_Test22"
+    ],
+    "branches": [
+        "Client",
+        "Contact"
+    ],
+    "existing_hier_schema": {},
+    "new_hier_schema": {}
+}
